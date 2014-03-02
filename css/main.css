@@ -103,14 +103,302 @@ textarea {
 ****************
 ***************/
 
+@font-face {
+	font-family: 'Conv_AgencyFB-BoldWide';
+	src: url('fonts/AgencyFB-BoldWide.eot');
+	src: url('fonts/AgencyFB-BoldWide.woff') format('woff'), url('fonts/AgencyFB-BoldWide.ttf') format('truetype'), url('fonts/AgencyFB-BoldWide.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
-.clear{
-	clear:both;
+@font-face {
+    font-family: 'AgencyFBRegular';
+    src: url('fonts/AgencyFB-Regular.eot');
+    src: url('fonts/AgencyFB-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/AgencyFB-Regular.woff') format('woff'), url('fonts/AgencyFB-Regular.ttf') format('truetype'), url('fonts/AgencyFB-Regular.svg#AgencyFBRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MarvelBold';
+    src: url('fonts/Marvel-Bold.eot');
+    src: url('fonts/Marvel-Bold.eot?#iefix') format('embedded-opentype'), url('fonts/Marvel-Bold.woff') format('woff'), url('fonts/Marvel-Bold.ttf') format('truetype'), url('fonts/Marvel-Bold.svg#MarvelBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MarvelBoldItalic';
+    src: url('fonts/Marvel-BoldItalic.eot');
+    src: url('fonts/Marvel-BoldItalic.eot?#iefix') format('embedded-opentype'), url('fonts/Marvel-BoldItalic.woff') format('woff'), url('fonts/Marvel-BoldItalic.ttf') format('truetype'), url('fonts/Marvel-BoldItalic.svg#MarvelBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MarvelItalic';
+    src: url('fonts/Marvel-Italic.eot');
+    src: url('fonts/Marvel-Italic.eot?#iefix') format('embedded-opentype'), url('fonts/Marvel-Italic.woff') format('woff'), url('fonts/Marvel-Italic.ttf') format('truetype'), url('fonts/Marvel-Italic.svg#MarvelBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MarvelRegular';
+    src: url('fonts/Marvel-Regular.eot');
+    src: url('fonts/Marvel-Regular.eot?#iefix') format('embedded-opentype'), url('fonts/Marvel-Regular.woff') format('woff'), url('fonts/Marvel-Regular.ttf') format('truetype'), url('fonts/Marvel-Regular.svg#MarvelBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body,html{
+	background:url(../img/top_bg.png) repeat-x;
 }
 
 .page{
 	
 }
+
+.container{
+	width:100%;
+	max-width:950px;
+	margin:auto;
+}
+
+header{
+}
+
+	header a#logo{
+		width:25%;
+		max-width:150px;
+		height:114px;
+		/* background:url(../img/icon_logo.png) no-repeat center 60px #ff0000; */
+		background-color:#ff0000;
+		display:inline-block;
+		float:left;
+		text-align:center;
+	}
+	
+		header a#logo img{
+			width:90%;
+			margin-top:55px;
+		}
+	
+	header section#interact{
+		width:800px;
+		float:right;
+	}
+
+	header #followUs{
+	    float:right;
+	    padding:5px 15px 0 10px;
+	    float:right;
+	    background:#fff;
+	    display:inline-block;
+	    height:28px;
+	}
+	
+		header #followUs a{
+			display: block;
+			float: left;
+			margin-right: 12px;
+			background: transparent url('../img/followUs.png') no-repeat;
+			height: 21px;
+		}
+		
+		header #followUs .google {
+		    background-position: -180px -3px;
+		    width:22px;
+		}
+		
+		header #followUs .icon1000 {
+		    background-position: -343px -3px;
+		    width:14px;
+		}
+		
+		header #followUs .facebook {
+		    background-position: -210px -3px;
+		    width:11px;
+		}
+		
+		header #followUs .twitter {
+		    background-position: -233px -3px;
+		    width:25px;
+		}
+		
+		header #followUs .youTube {
+		    background-position: -268px -3px;
+		    width:22px;
+		}
+		
+		header #followUs .pinterest {
+		    background-position: -305px -3px;
+		    width:21px;
+		}
+		
+		header #followUs .google:hover {
+		    background-position: -180px -30px;
+		}
+		
+		header #followUs .facebook:hover {
+		    background-position: -210px -30px;
+		}
+		
+		header #followUs .twitter:hover {
+		    background-position: -233px -30px;
+		}
+		
+		header #followUs .youTube:hover {
+		    background-position: -268px -30px;
+		}
+		
+		header #followUs .pinterest:hover {
+		    background-position: -305px -30px;
+		}
+		
+		header #followUs .icon1000:hover {
+		    background-position: -343px -30px;
+		}
+
+#search {
+	float:right;
+    background-color: #FFFFFF;
+    height:33px;
+}
+
+.search-style {
+    padding: 0px;
+    position: relative;
+    padding-left: 30px;
+    background-color: #FFF;
+    height: 28px;
+}
+
+.searchForm{
+
+}
+
+	.searchForm .searchSubmit{
+		background: url(../img/search_icon.gif) no-repeat center center;
+		width: 28px;
+		line-height: 28px;
+		height: 28px;
+		left: 0px;
+		top: 0px;
+		padding-left: 0;
+		padding-right: 0;
+		vertical-align: middle;
+		border: none !important;
+		border-right: 1px solid #606061 !important;
+		background-color: #FFFFFF;
+	}
+	
+	.searchForm .s {
+	    width: 193px;
+	    background-color: #FFF;
+	    border: none !important;
+	    margin: 5px 2px 2px 5px;
+	    box-shadow: 0px 0px 0px #CCCCCC inset !important;
+	    font-family: Helvetica, Arial;
+	    font-size: 11px;
+	    height: 18px;
+	    line-height: 18px;
+	}
+	
+	#search .searchForm{
+	    float:left;
+	}
+	
+	header nav{
+		width:100%;
+		padding-top:10px;
+	}
+	
+		header nav ul{
+			width:100%;
+			list-style:none;
+			margin:0px;
+			padding:0 0 0 2%;
+		}
+		
+			header nav ul li{
+				width:32%;
+				float:left;
+				color: #FFFFFF;
+				white-space: nowrap;
+				margin: 0;
+				padding: 0;
+			}
+			
+				header nav ul li.sep{
+					width:1%;
+					margin: 0;
+					text-align:center;
+				}
+				
+					header nav ul li.sep span{
+						display:inline-block;
+						width:1px;
+						height:76px;
+						background:#000;
+					}
+			
+				header nav ul li.optionMenu{
+					display:none;
+				}
+			
+				header nav ul li h1{
+					font-family: 'Orbitron', sans-serif;
+					font-size: 18px;
+					font-weight: normal;
+					padding:0px;
+					background-color: #000000;
+					text-indent:5px;
+					text-transform:uppercase;
+					margin:25px auto 0 auto;
+					width:96%;
+				}
+			
+				header nav ul li ul{
+				
+				}
+				
+					header nav ul li ul li{
+						margin:0px;
+						width:auto;
+						display:inline-block;
+						border-left:2px solid #000;
+						padding:0 8px;
+					}
+					
+						header nav ul li ul li:first-child{
+							border-left:0px;
+							padding-left:0px;
+						}
+					
+						header nav ul li ul li a{
+							font-family: 'Homenaje', sans-serif;
+							text-decoration:none;
+							color:#000;
+							font-size:16px;
+						}
+						
+#mobSearch{
+	display:none;
+}
+					
+/* ---- HOME ---- */
+#home{
+
+}
+
+
+
 
 
 /* ---- 404 ---- */
@@ -119,13 +407,192 @@ textarea {
 }
 
 
+.clear{
+	clear:both;
+}
+
+a img{
+	border:none;
+}
 
 
+@media screen and (max-width: 950px) {
+	header section#interact{
+		width:83%;
+	}
+	
+	header a#logo{
+		width:17%;
+	}
+	
+				header nav ul li ul li{
+					border-left:1px solid #000;
+					padding:0 4px;
+				}
+				
+					header nav ul li ul li a{
+						font-size:14px;
+					}
+									
+}
 
+@media screen and (max-width: 720px) {
+	body,html{
+		background:none;
+	}
+	
+	header{
+	background:url(../img/top_bg.png);
+	}
+	
+	header a#logo{
+		height:80px;
+	}	
+	
+		header a#logo img{
+			margin-top:41px;
+		}
+	
+	header #interact{
+		background:#fff;
+	}
+	
+	header nav{
+		background:#fff;
+		padding:0;
+	}
+	
+	header nav ul li.sep span{
+		background:none;
+	}
+				
+	header nav ul li h1{
+		font-size:14px;
+		margin:0;
+	}
+	
+	header nav ul li:hover ul{
+		display:block;
+	}
+	
+		header nav ul li ul{
+/* 			display:none; */
+			padding-left:0;
+		}
+		
+			header nav ul li ul li{
+				float:none;
+				display:block;
+			}
+			
+			header nav ul li ul li:first-child{
+				border-left:1px solid #000;
+				padding:0 4px;
+			}
+}
 
+@media screen and (max-width: 540px) {
+	header section#interact{
+		width:74%;
+		background:none;
+	}
+	
+	header a#logo{
+		width:26%;
+		height:71px;
+	}
+	
+		header a#logo img {
+			margin-top: 33px;
+		}
+		
+	#cbp-fwslider{
+		padding:6px 0;
+	}
+	
+	/*
+header nav ul li h1{
+		font-size:13px;
+	}
+*/
+	
+	#interact span#search{
+		display:none;
+	}
+	
+	#mobSearch{
+		display:block;
+	}
+	
+	
+		#mobSearch input.s{
+			width:97%;
+			border:1px solid #ccc !important;
+			height:35px;
+			font-size:18px;
+			line-height:35px;
+			text-indent:35px;
+			margin-top:8px;
+		}
+		
+		#mobSearch input.searchSubmit{
+			float:left;
+			margin-top:-35px;
+			margin-left:8px;
+			position:relative;
+		}
+		
+		header nav ul{
+			padding:0;
+		}
+		
+		header nav ul li{
+			width:100%;
+			border:none;
+		}
+		
+		header nav ul li.sep{
+			display:none !important;
+		}
+		
+		nav ul li{
+			display:none;
+		}
+			header nav ul li h1{
+				line-height:38px;
+				width:100%;
+			}
+		
+		nav ul li.optionMenu{
+			display:block !important;
+		}
+		
+		nav ul:hover li{
+			display:block !important;
+			cursor:pointer;
+		}
+			
+			nav ul:hover li.optionMenu{
+				display:none !important;
+			}
+		
+			nav ul li ul li:hover{
+				background:#ff0000;
+			}
+			
+				nav ul li ul li:hover a{
+					color:#fff;
+				}
+				
+				header nav ul li ul li a{
+					font-size:17px;
+					line-height:26px;
+				}
+}
 
+@media screen and (max-width: 480px) {
 
-
+}
 
 /* ==========================================================================
    Helper classes
