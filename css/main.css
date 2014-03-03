@@ -405,9 +405,220 @@ header{
 
 footer{
 	width:100%;
-	height:500px;
 	background:#000;
+	color:#CCCCCC;
 }
+
+	footer section{
+		width:22%;
+		float:left;
+		margin-left:4%;
+	}
+	
+		footer section:first-child{
+			margin-left:0;
+		}
+
+	footer div.container{
+		padding-top:10px;
+	}
+
+	footer h2{
+		background:#fff;
+		color:#000;
+		font-size:14px;
+		text-transform:uppercase;
+		padding:2px 5px;
+	}
+	
+	footer p{
+		font-size:11px;
+	}
+	
+	footer a{
+		color:#fff;
+		text-decoration:none;
+		font-family: 'Homenaje', sans-serif;
+	}
+	
+		footer a:hover{
+			color:#ff0000;
+		}	
+		
+	footer section#links{
+	
+	}
+	
+		footer section#links ul{
+			padding:0;
+			margin:0;
+			list-style:none;
+		}
+		
+			footer section#links ul li{
+				display:block;
+			}
+			
+	
+	
+			footer section form .text-btn {
+			    position: relative;
+			    padding-right: 26px;
+			    background-color: #FFFFFF;
+			    height: 20px;
+			    overflow: hidden;
+			}
+			
+			
+			footer section .text-btn input[type=submit], .footerSection .text-btn .submitBtn {
+			    position: absolute;
+			    right: 0px;
+			    top: 0px;
+			    width: 22px;
+			    padding: 0;
+			    line-height: 21px;
+			    height: 20px;
+			    border: 0px none transparent !important;
+			    background-color: #CCCCCC;
+			    vertical-align: middle;
+			    text-align: center;
+			    font-weight: bold;
+			    font-family: helvetica;
+			    font-size: 10px;
+			    color: #4d4c49;
+			
+			}
+			
+			footer section .text-btn input[type=text], .footerSection .text-btn .txtFld {
+			    width: 100%;
+			    background-color: #FFF;
+			    padding-left: 10px;
+			    border: 0px none transparent !important;
+			    font-family: helvetica;
+			    font-size: 10px;
+			    color: #4d4c49;
+			}
+			
+			footer section label {
+			    display: block;
+			    float: left;
+			    white-space: nowrap;
+			    width: 70px;
+			    font-size: 14px;
+			    font-family: 'AgencyFB Regular', AgencyFBRegular, Helvetica, Arial, sans-serif;
+			}
+			
+			footer section label input {
+			    vertical-align: text-bottom;
+			}
+			
+			footer section form {
+			    margin-top: 10px;
+			}
+			
+			footer section#social div.followUs{
+				text-align:center;
+			}
+			
+			
+			
+			footer section#social div.followUs a{
+				display: inline-block;
+				margin-right: 12px;
+				background: transparent url('../img/followUs.png') no-repeat;
+				height: 21px;
+			}
+			
+			footer section#social div.followUs .google {
+			    background-position: 0 -3px;
+			    width:22px;
+			}
+			
+			footer section#social div.followUs .icon1000 {
+			    background-position: -164px -3px;
+			    width:14px;
+			}
+			
+			footer section#social div.followUs .facebook {
+			    background-position: -30px -3px;
+			    width:11px;
+			}
+			
+			footer section#social div.followUs .twitter {
+			    background-position: -56px -3px;
+			    width:25px;
+			}
+			
+			footer section#social div.followUs .youTube {
+			    background-position: -87px -3px;
+			    width:22px;
+			}
+			
+			footer section#social div.followUs .pinterest {
+			    background-position: -125px -3px;
+			    width:21px;
+			}
+			
+			footer section#social div.followUs .google:hover {
+			    background-position: 0 -29px;
+			}
+			
+			footer section#social div.followUs .icon1000:hover {
+			    background-position: -164px -30px;
+			}
+			
+			footer section#social div.followUs .facebook:hover {
+			    background-position: -30px -29px;
+			}
+			
+			footer section#social div.followUs .twitter:hover {
+			    background-position: -56px -29px;
+			}
+			
+			footer section#social div.followUs .youTube:hover {
+			    background-position: -87px -29px;
+			}
+			
+			footer section#social div.followUs .pinterest:hover {
+			    background-position: -125px -29px;
+			}
+			
+			
+			footer section#twitter #twitterFeed {
+			    height: 240px;
+			    width: auto !important; /*212px;*/
+			    color: #DDDDDD;
+			    font-size: 11px;
+			    padding-right: 3px;
+			    word-wrap: break-word;
+			}
+			
+			footer section#twitter #twitterFeed .jspPane {
+			    width: auto !important;
+			    padding-right: 22px !important;
+			}
+			
+			footer section#twitter #twitterFeed .jspContainer {
+			    width: auto !important;
+			}
+			
+			footer section#twitter #twitterFeed .twt_dt {
+			    padding-top: 3px;
+			    font-size: 10px;
+			    font-family: Helvetica;
+			}
+			
+			footer section#twitter #twitterFeed .twt_url{
+			    font-size: 11px;
+			    font-family: Helvetica;
+			}
+			
+			
+			footer section#twitter #twitterFeed .post {
+			    margin-top: 6px;
+			    padding-top: 6px;
+			    border-top: 1.5px solid #cccccc;
+			}
 					
 /* ---- HOME ---- */
 #home{
@@ -562,7 +773,9 @@ a img{
 			padding:100px 10px 0 10px;
 		}	
 	
-				
+			footer section#social div.followUs span{
+				display:block;
+			}		
 }
 
 @media screen and (max-width: 720px) {
@@ -618,6 +831,37 @@ a img{
 				border-left:1px solid #000;
 				padding:0 4px;
 			}
+}
+
+
+@media screen and (max-width: 640px) {
+	section#twitter{
+		display:none;
+	}
+	
+	footer section{
+		width:49%;
+		margin-left:2%;
+	}
+	
+		footer section#social div.followUs span{
+				display:inline;
+		}
+	
+	section#links{
+		margin:0;
+		width:100%;
+	}
+	
+		section#links ul{
+			float:left;
+			margin-left:1%;
+			width:32%;
+		}
+		
+		section#links ul:first-child{
+			margin:0;
+		}
 }
 
 @media screen and (max-width: 540px) {
@@ -754,11 +998,26 @@ header nav ul li h1{
 			display:block;
 			background:#ff0000;
 		}
+		
+	/*
+footer section{
+		width:100%;
+		margin:5px 0;
+	}
+	
+		footer section#social div.followUs{
+			text-align:left;
+		}
+*/
 	
 }
 
 @media screen and (max-width: 480px) {
-
+	
+	footer>section{
+		width:100%;
+	}
+	
 }
 
 /* ==========================================================================
