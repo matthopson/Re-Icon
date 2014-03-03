@@ -170,6 +170,11 @@ body,html{
 	margin:auto;
 }
 
+.contained{
+	width:100%;
+	margin:auto;
+}
+
 header{
 }
 
@@ -391,6 +396,18 @@ header{
 #mobSearch{
 	display:none;
 }
+
+.slashSep{
+	height:25px;
+	background:url(../img/top_bg.png);
+	margin:16px 0;
+}
+
+footer{
+	width:100%;
+	height:500px;
+	background:#000;
+}
 					
 /* ---- HOME ---- */
 #home{
@@ -398,7 +415,107 @@ header{
 }
 
 
+.calloutHalf{
+	width:49%;
+	float:left;
+}
 
+	.calloutHalfSpacer{
+		margin-right:2%;
+	}
+
+	.calloutHalf img{
+		width:100%;
+	}
+	
+
+#limiterPosts{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+	#limiterPosts li{
+		background-size:cover;
+		float:left;
+		width:32%;
+		max-width:310px;
+		height:375px;
+		margin-left:2%;
+		cursor:pointer;
+	}
+	
+		#limiterPosts li:hover div.content{
+			display:block;
+		}
+	
+		#limiterPosts li:first-child{
+			margin-left:0;
+		}
+	
+		#limiterPosts li div.content{
+			width:100%;
+			height:375px;
+			background:url(../img/limiter_overlay_red.png);
+			display:none;
+		}
+		
+			#limiterPosts li div.content span.pubDate{
+				width:62px;
+				height:31px;
+				background:url(../img/limiter_overlay_black.png);
+				float:right;
+				color:#fff;
+				padding:5px;
+			}
+			
+				#limiterPosts li div.content span.pubDate span.date{
+					float:left;
+					font-size:30px;
+					line-height: 31px;
+				}
+				
+				#limiterPosts li div.content span.pubDate span.monthYear{
+					float:right;
+					font-size:12px;
+					text-align:right;
+					line-height: 12px;
+					padding-top: 4px;
+				}
+			
+			#limiterPosts li div.content h1{
+				font-size:17px;
+				color:#fff;
+				font-weight:normal;
+				padding:200px 10px 0 10px;
+				margin:0 !important;
+			}
+			
+			#limiterPosts li div.content p{
+				color:#fff;
+				font-size:11px;
+				padding:0 10px;
+			}
+			
+			#limiterPosts li div.content blockquote{
+				margin:0;
+			}
+			
+a.viewLimiterPosts{
+	background:#ff0000;
+	padding:8px 10px;
+	float:right;
+	margin-top:10px;
+	text-transform:uppercase;
+	color:#fff;
+	text-decoration:none;
+	font-family: 'Orbitron', sans-serif;
+}
+
+	a.viewLimiterPosts:hover{
+		background:#ccc;
+		color:#333;
+	}
 
 
 /* ---- 404 ---- */
@@ -417,6 +534,11 @@ a img{
 
 
 @media screen and (max-width: 950px) {
+	.contained{
+		width:98%;
+		margin:auto;
+	}
+
 	header section#interact{
 		width:83%;
 	}
@@ -433,7 +555,14 @@ a img{
 					header nav ul li ul li a{
 						font-size:14px;
 					}
-									
+						
+						
+						
+		#limiterPosts li div.content h1{
+			padding:100px 10px 0 10px;
+		}	
+	
+				
 }
 
 @media screen and (max-width: 720px) {
@@ -507,7 +636,7 @@ a img{
 		}
 		
 	#cbp-fwslider{
-		padding:6px 0;
+		padding:6px 0 24px 0;
 	}
 	
 	/*
@@ -588,6 +717,44 @@ header nav ul li h1{
 					font-size:17px;
 					line-height:26px;
 				}
+				
+				
+	.calloutHalf{
+		width:100%;
+		float:none;
+	}
+	
+		.calloutHalfSpacer{
+			margin-right:0;
+		}
+	
+		.calloutHalf img{
+			width:100%;
+		}
+	
+	
+	#limiterPosts li{
+		float:none;
+		width:98%;
+		max-width:540px;
+		margin:0 0 2px 0;
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+		#limiterPosts li div.articleImage{
+			display:block;
+			width:50%;
+			float:left;
+		}
+		
+		#limiterPosts li div.content{
+			width:50%;
+			float:right;
+			display:block;
+			background:#ff0000;
+		}
+	
 }
 
 @media screen and (max-width: 480px) {

@@ -4,72 +4,7 @@
 	$pageDescription = "";
 	require('includes/dspHeader.php');
 ?>
-	<div class="container">
-		<header>
-			<a href="/" id="logo"><img src="img/icon_logo.png"></a>
-			<section id="interact">
-				<span id="search">
-					<form method="get" action="/search" class="searchForm">
-					    <input type="submit" class="searchSubmit" value="">
-					    <label for="s" class="assistive-text" style="display:none">Search</label>
-						<input name="searchtype" value="product" type="hidden"/>
-						<input type="text" class="field s" name="q" placeholder="Product Search / Part # Search">
-					</form>
-				</span>
-				<span id="followUs">
-					<a target="_blank" class="icon1000" title="ICON1000" href="http://icon1000.com/culture/blog/"></a>
-	                <a target="_blank" class="facebook" title="Facebook" href="http://www.facebook.com/pages/Icon/246334089439"></a>
-	                <a target="_blank" class="twitter" title="Twitter" href="http://twitter.com/IconMotosports"></a>
-	                <a target="_blank" class="youTube" title="YouTube" href="http://www.youtube.com/iconmotosports"></a>
-	                <a target="_blank" class="pinterest" title="Pinterest" href="https://pinterest.com/iconmotosports/"></a>
-	                <a target="_blank" class="google" title="Google+" href="https://plus.google.com/110965041137193952156" rel="publisher"></a>
-				</span>
-				<div class="clear"></div>
-				<nav>
-					<ul>
-						<li class="optionMenu"><h1>Menu</h1></li>
-						<li><h1>The Gear</h1>
-							<ul>
-								<li><a href="/products/helmets">Helmets</a></li>
-								<li><a href="/products/mens">Mens</a></li>
-								<li><a href="/products/womens">Womens</a></li>
-								<li><a href="/products/icon-1000">ICON 1000</a></li>
-							</ul>
-						</li>
-						<li class="sep"><span></span></li>
-						<li><h1>The Ride</h1>
-							<ul>
-								<li><a href="/limiter">Limiter</a></li>
-								<li><a href="/videos">Videos</a></li>
-								<li><a href="/team">Team</a></li>
-								<li><a href="/bikes">Bikes</a></li>
-							</ul>
-						</li>
-						<li class="sep"><span></span></li>
-						<li><h1>The Brand</h1>
-							<ul>
-								<li><a href="/dealers">Dealers</a></li>
-								<li><a href="/catalog">Catalog</a></li>
-								<li><a href="/faq">FAQ</a></li>
-								<li><a href="/contact-us">Contact Us</a></li>
-							</ul>
-						</li>
-						<div class="clear"></div>
-					</ul>
-					
-				</nav>
-			</section>
-			<div class="clear"></div>
-		</header>
-		
-		<section id="mobSearch">
-			<form method="get" action="/search" class="searchForm">
-			    <label for="s" class="assistive-text" style="display:none">Search</label>
-				<input name="searchtype" value="product" type="hidden"/>
-				<input type="text" class="field s" name="q" placeholder="Product Search / Part # Search">				
-				<input type="submit" class="searchSubmit" value="">
-			</form>
-		</section>
+	
 		
 		<div id="cbp-fwslider" class="cbp-fwslider">
 			<ul>
@@ -96,9 +31,60 @@
 				</li>
 			</ul>
 		</div>
-
 		
-	</div><!---container--->
+		<div class="contained">
+			<div class="calloutHalf calloutHalfSpacer">
+				<a href="#"><img src="img/14SpringLimterReleaseSubAd.jpg"></a>
+			</div>
+			<div class="calloutHalf">
+				<a href="#"><img src="img/14SpringNavigatorCollectionSubAd.jpg"></a>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="slashSep"></div>
+		<div class="contained">
+			<ul id="limiterPosts">
+				<li style="background-image:url(img/OwnTheUrbanCurcuitVideo.jpg);">
+					<!-- <div class="articleImage" style="background-image:url(img/OwnTheUrbanCurcuitVideo.jpg);"></div> -->
+					<div class="content">
+						<blockquote cite="">
+							<span class="pubDate"><time pubdate datetime="2014-2-27T19:10-08:00"><span class="date">21</span><span class="monthYear">Feb<br />2014</span></time></span>
+							<h1>OWN THE URBAN CIRCUIT - THE ICON 2014 SPRING / SUMMER COLLECTION</h1>
+							<p>We have prepared, we have trained, and now, we ride. Spring 2014 for the ICON line is bringing the bold back to sport bikes - big designs, bright metal flake, aggressive jacket chassis. Gear meant to reflect a rider unafraid ...</p>
+						</blockquote>
+					</div>
+					<div class="clearfloat"></div>
+				</li>
+				
+				<li style="background-image:url(img/12430347403_a0fc247c74_b1.jpg);">
+					<!-- <div class="articleImage" style="background-image:url(img/12430347403_a0fc247c74_b1.jpg);"></div> -->
+					<div class="content">
+						<blockquote cite="">
+							<span class="pubDate"><time pubdate datetime="2014-2-27T19:10-08:00"><span class="date">10</span><span class="monthYear">Feb<br />2014</span></time></span>
+							<h1>SNOW MOTO - 2014 ONE MOTORCYCLE SHOW</h1>
+							<p>"When Portland freezes over," is a phrase often muttered around the office when discussing various nefarious schemes - side-by-side shenanigans, hardtail excursions, and urban snowmobiling come to mind. However, sometimes ...</p>
+						</blockquote>
+					</div>
+					<div class="clearfloat"></div>
+				</li>
+				
+				<li style="background-image:url(img/SpeedmasterIcon1000BikePageFeaturedImage-e1391615815322.jpg);">
+					<!-- <div class="articleImage" style="background-image:url(img/SpeedmasterIcon1000BikePageFeaturedImage.jpg);"></div> -->
+					<div class="content">
+						<blockquote cite="">
+							<span class="pubDate"><time pubdate datetime="2014-2-27T19:10-08:00"><span class="date">05</span><span class="monthYear">Feb<br />2014</span></time></span>
+							<h1>GO FAST, LOOK FLASH - INTRODUCING THE ICON SPEEDMASTER</h1>
+							<p>Built by ICON Motosports, the ICON 1000 Speedmaster is our third commissioned build with Triumph Motorcycles. Recognizing both ICON's unique outlook on custom motorcycles, industry-leading motorcycle apparel, Triumph ...</p>
+						</blockquote>
+					</div>
+					<div class="clearfloat"></div>
+				</li>
+			</ul>
+			<div class="clear"></div>
+			<a href="#" class="viewLimiterPosts">View All Posts</a>
+			<div class="clear"></div>
+		</div>
+		
+		
 
 <?php require('includes/dspFooter.php'); ?>
-
