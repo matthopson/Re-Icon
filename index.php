@@ -43,6 +43,9 @@
 		</div>
 		<div class="slashSep"></div>
 		<div class="contained">
+			<img class="limiterHead" src="img/limiter_title2.jpg">
+			<span class="limiterSubHead">Your daily dose of the ICON Lifestyle</span>
+			<br />
 			<ul id="limiterPosts">
 				<li style="background-image:url(img/OwnTheUrbanCurcuitVideo.jpg);">
 					<!-- <div class="articleImage" style="background-image:url(img/OwnTheUrbanCurcuitVideo.jpg);"></div> -->
